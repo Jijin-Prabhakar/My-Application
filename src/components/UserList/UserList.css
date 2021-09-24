@@ -1,0 +1,22 @@
+.table-secondary > tr > th {
+  font-weight: normal;
+  text-align: center;
+}
+
+.table-body > tr > td {
+  text-align: center;
+}
+
+.fa-trash-alt {
+  color: white;
+  background-color: rgb(87, 202, 133);
+  padding: 10px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.pagination {
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+}

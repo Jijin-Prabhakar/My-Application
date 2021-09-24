@@ -1,0 +1,53 @@
+.header-section {
+  padding-top: 50px;
+}
+
+.header-section > .brand-section {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-image > a > img {
+  width: 35px;
+  height: 25px;
+}
+
+.brand-name > p {
+  margin: 0;
+  padding: 0px 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header-section > .user-section {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding-bottom: 10px;
+}
+
+.user-image {
+  border-left: 1px solid black;
+  padding: 0px 5px;
+}
+
+.user-image > a > img {
+  width: 35px;
+  height: 35px;
+}
+
+.user-name > a > p {
+  margin: 0;
+  padding: 0px 5px;
+  font-size: small;
+  text-align: center;
+}
